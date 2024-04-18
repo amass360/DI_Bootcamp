@@ -1,0 +1,41 @@
+body {
+    background-image: url('images/clothing.jpeg')
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.icon {
+    padding-top: 15px;px;
+    margin-left: 40px;
+}
+
+.navbar-product {
+    color: white;
+    margin-left: 80%;
+    font-size: smaller;
+    padding-top: 18px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .name {
+    margin-left: 5%;
+  }
+
+  .year {
+    margin-left: 80%;
+  }
