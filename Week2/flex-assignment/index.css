@@ -1,0 +1,43 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.numbers {
+    border: 3px solid red;
+    width: 81%;
+}
+
+.one {
+    display: flex;
+    flex-direction:row;
+    color: white;
+    background-color: #87D1EE;
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.two {
+    display: flex;
+    flex-direction:row;
+    color: white;
+    background-color: #87D1EE;
+    width: 50%;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.three {
+    display: flex;
+    flex-direction:row;
+    color: white;
+    background-color: #87D1EE;
+    width: 100%;
+    justify-content: center;
+    font-size: 30px;
+}

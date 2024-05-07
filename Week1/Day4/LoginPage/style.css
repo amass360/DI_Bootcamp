@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.LoginWord {
+    text-decoration: white;
+}
+
+.parent-container {
+    border: solid 1px black;
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+}
+
+.white-container {
+    width: 50%;
+    padding: 6%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RememberMe {
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 10%;
+}
+
+.ForgotPassword {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.purple-container {
+    width: 50%;
+    height: auto;
+    background-color: #4D245C;
+    text-decoration: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 6%;
+    
+}
+
+#hello-friend {
+    text-decoration: white;
+}
+
+.icons {
+    justify-content: space-between;
+    ;
+}

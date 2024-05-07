@@ -1,0 +1,99 @@
+* {
+    background-image: url(../DailyChallengeLandingPage/images/worldmap-countries-hd.jpg);
+    /* border: none; */
+    background-blend-mode: color;
+}
+
+/* .everything {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+        "title title title"
+        "pop pop pop"
+        "ItemBar1 ItemBar1 ItemBar1"
+        "ItemBar2 ItemBar2 ItemBar2"
+        "ItemBar3 ItemBar3 ItemBar3";
+} */
+
+.title {
+    text-align: center;
+    padding: 2% 37% 2% 37%;
+}
+
+.pop-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.business-container {
+    padding: 2% 10% 2% 10%;
+}
+
+.users-container {
+    padding: 2% 10% 2% 10%;
+}
+
+.sold-container {
+    padding: 2% 10% 2% 10%;
+}
+
+.amount {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5866C3;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    height: 20%;
+
+}
+
+.item-1 {
+    padding: 5% 4% 10% 2%;
+}
+
+.item-2 {
+    padding: 25% 3% 2% 3%;
+}
+
+.item-3 {
+    padding: 10% 2% 7% 3%;
+}
+
+.box-top {
+    background-color: white;
+    height: 30%;
+}
+
+.box-1-bottom {
+    background-color: #FB8B8A;
+    height: 15%;
+}
+
+.business-name {
+    color: white;
+    font-weight: bold;
+}
+
+.business-title {
+    color: white;
+}
+
+ /* .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}  */
+
+/* .item-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+} */
