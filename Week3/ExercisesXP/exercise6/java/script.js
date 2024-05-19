@@ -2,7 +2,7 @@
 // Prediction: 534
 // Actual: 534
 
-console.log(3 - 4)
+console.log(" " + 0)
 
 5 - "4"
 // Prediction: 1
@@ -24,7 +24,7 @@ console.log(3 - 4)
 
 " " + 0
 // Prediction: undefined
-// Actual: 0
+// Actual: 0, adds a space in front
 
 true + true
 // Prediction: true
