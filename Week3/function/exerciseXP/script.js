@@ -21,13 +21,10 @@ infoAboutMe()
 // Call the function twice with the following arguments:
 // infoAboutPerson("David", 45, "blue")
 // infoAboutPerson("Josh", 12, "yellow")
-function infoAboutPerson() {
-    const personName = "Aaron"
-    const personAge = "28"
-    const personFavoriteColor = "blue"
+function infoAboutPerson(personName, personAge, personFavoriteColor) {
     console.log("My name is " + personName + ", I am " + personAge + " years old, my favorite color is " + personFavoriteColor)
 }
-
+infoAboutPerson("Aaron",28,"blue")
 infoAboutPerson("David", 45, "blue")
 infoAboutPerson("Josh", 12, "yellow")
 
@@ -45,20 +42,18 @@ infoAboutPerson("Josh", 12, "yellow")
 // If the bill is more than $200, tip 10%.
 function calculateTip()  {
     let billAmount = parseFloat(prompt("number"));
-    let tip;
+    let tip = billAmount * .10;
     
     if (billAmount < 50) {
-        let tip = billAmount * 0.20; }
-    else if (billAmount > 50 ,billAmount < 200) {
-        let tip = billAmount * 0.15; 
+        tip = billAmount * 0.20; }
+    else if (billAmount >= 50 && billAmount <= 200) {
+        tip = billAmount * 0.15; 
     }
-    else (billAmount > 200) {
-        let tip = billAmount * 0.10;
-    }
-
+     
+    
 let finalBill = billAmount + tip
 // Console.log the tip amount and the final bill (bill + tip).
-console.log(billAmount)
+console.log(finalBill)
 }
 // Call the calculateTip() function.
 calculateTip()
