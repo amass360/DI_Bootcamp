@@ -1,0 +1,223 @@
+
+
+{
+    "SaaS": {
+        "autoRenew": true
+    },
+    "cleaningStatus": {
+        "value": null
+    },
+    "picture": {
+        "regular": "closet",
+        "thumbnail": "https://electrictsltd.com/CATALOG.asp?Page=NewShowProd.asp&PRodID=2231048&aff=GMC",
+        "large": "BigCloset",
+        "caption": "room"
+    },
+    "terms": {
+        "minNights": 1,
+        "maxNights": 45,
+        "cancellation": "2 days prior"
+    },
+    "prices": {
+        "monthlyPriceFactor": 1,
+        "weeklyPriceFactor": 1,
+        "basePriceUSD": 100,
+        "cleaningFee": 5,
+        "currency": "dollars",
+        "securityDepositFee": 200,
+        "weekendBasePrice": 200,
+        "basePrice": 100,
+        "extraPersonFee": 10,
+        "guestsIncludedInRegularFee": 120
+    },
+    "pms": {
+        "automation": {
+            "answeringMachine": {
+                "confirmedBeforeCheckIn": {
+                    "delayInMinutes": 45
+                },
+                "confirmedDayOfCheckIn": {
+                    "delayInMinutes": 45
+                },
+                "confirmedDayOfCheckOut": {
+                    "delayInMinutes": 45
+                },
+                "confirmedDuringStay": {
+                    "delayInMinutes": 45
+                },
+                "confirmedAfterCheckOut": {
+                    "delayInMinutes": 45
+                },
+                "unconfirmedFirstMessage": {
+                    "delayInMinutes": 55
+                },
+                "unconfirmedSubsequentMessage": {
+                    "delayInMinutes": 45
+                }
+            },
+            "hooks": {
+                "ignoredHooks": []
+            },
+            "calendarSmartRules": {
+                "blockListings": []
+            },
+            "autoReviews": {
+                "templates": []
+            },
+            "autoPricing": {
+                "rules": []
+            }
+        },
+        "tasks": {
+            "defaultTasks": []
+        },
+        "autoPayments": {
+            "policy": []
+        },
+        "cleaningStatus": {
+            "active": true
+        },
+        "active": true
+    },
+    "sales": {
+        "salesService": {
+            "atPhones": []
+        }
+    },
+    "receptionistsService": {
+        "receptionDesk": {
+            "atPhones": [],
+            "ittt": []
+        },
+        "screening": {
+            "checklist": []
+        }
+    },
+    "calendarRules": {
+        "defaultAvailability": "AVAILABLE",
+        "advanceNotice": {
+            "bookingCom": {
+                "isCutOffHoursEnabled": false
+            },
+            "expedia": {
+                "isCutOffHoursEnabled": false
+            },
+            "airbnb2": {
+                "isCutOffHoursEnabled": true
+            },
+            "directBookings": {
+                "isCutOffHoursEnabled": false
+            },
+            "updatedAt": "2024-05-21T18:06:49.169Z"
+        },
+        "bookingWindow": {
+            "updatedAt": "2024-05-21T18:06:49.169Z"
+        },
+        "preparationTime": {
+            "updatedAt": "2024-05-21T18:06:49.171Z"
+        },
+        "defaultAvailabilityUpdatedAt": "2024-05-21T18:06:49.173Z",
+        "rentalPeriods": []
+    },
+    "type": "SINGLE",
+    "tags": [
+        "number of bedrooms: 5"
+    ],
+    "owners": [],
+    "amenities": [],
+    "amenitiesNotIncluded": [],
+    "useAccountRevenueShare": true,
+    "netIncomeFormula": "host_payout",
+    "commissionFormula": "net_income",
+    "ownerRevenueFormula": "net_income - pm_commission",
+    "useAccountAdditionalFees": true,
+    "taxes": [],
+    "useAccountTaxes": true,
+    "useAccountMarkups": true,
+    "active": true,
+    "preBooking": [],
+    "_id": "664ce2b98440e40011024130",
+    "address": {
+        "full": "Kaplan St 2, Ramat Gan, Israel",
+        "street": "Kaplan Street 2",
+        "city": "Ramat Gan",
+        "country": "Israel",
+        "lat": 32.0695961,
+        "lng": 34.82006190000001,
+        "state": "Tel Aviv District"
+    },
+    "accommodates": 5,
+    "timezone": "Asia/Jerusalem",
+    "propertyType": "Apartment",
+    "roomType": "Entire home/apt",
+    "defaultCheckInTime": "15:00",
+    "defaultCheckOutTime": "10:00",
+    "title": "Example listing title",
+    "pictures": [
+        {
+            "_id": "664ce2b98440e40011024131",
+            "regular": "closet",
+            "thumbnail": "https://electrictsltd.com/CATALOG.asp?Page=NewShowProd.asp&PRodID=2231048&aff=GMC",
+            "large": "BigCloset",
+            "caption": "room",
+            "height": 10,
+            "original": "https://electrictsltd.com/CATALOG.asp?Page=NewShowProd.asp&PRodID=2231048&aff=GMC",
+            "size": 20,
+            "width": 20
+        }
+    ],
+    "nickname": "By the ocean 19.5.2024",
+    "bathrooms": 3,
+    "minimumAge": 18,
+    "origin": "booking.com",
+    "accountId": "62a06d2f22513000359ee893",
+    "isListed": false,
+    "createdAt": "2024-05-21T18:06:49.172Z",
+    "lastUpdatedAt": "2024-05-21T18:06:49.208Z",
+    "plan": [
+        {
+            "_id": "664ce2b98440e40011024132",
+            "name": "SOFTWARE",
+            "planType": "RESERVATION_COMMISSION",
+            "isLocked": true,
+            "id": "664ce2b98440e40011024132"
+        },
+        {
+            "_id": "664ce2b98440e40011024133",
+            "name": "RECEPTIONISTS_SERVICE",
+            "planType": "RESERVATION_COMMISSION",
+            "isLocked": true,
+            "id": "664ce2b98440e40011024133"
+        },
+        {
+            "_id": "664ce2b98440e40011024134",
+            "name": "RENTALS_UNITED",
+            "planType": "RESERVATION_COMMISSION",
+            "isLocked": true,
+            "id": "664ce2b98440e40011024134"
+        },
+        {
+            "_id": "664ce2b98440e40011024135",
+            "name": "AIRBNB",
+            "planType": "RESERVATION_COMMISSION",
+            "isLocked": true,
+            "id": "664ce2b98440e40011024135"
+        },
+        {
+            "_id": "664ce2b98440e40011024136",
+            "name": "PAYMENT_PLATFORM_FEE",
+            "planType": "TRANSACTION_COMMISSION",
+            "isLocked": true,
+            "id": "664ce2b98440e40011024136"
+        }
+    ],
+    "integrations": [],
+    "pendingTasks": [],
+    "listingRooms": [],
+    "customFields": [],
+    "offeredServices": [],
+    "importedAt": "2024-05-21T18:06:49.173Z",
+    "occupancyStats": [],
+    "__v": 0,
+    "id": "664ce2b98440e40011024130"
+}

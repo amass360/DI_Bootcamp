@@ -1,10 +1,13 @@
 //exercise1
-let x = 3;
+let x = 5;
 let y = 5;
 
 if (x > y) {
     console.log("x is the biggest number")
-} else {
+} if (x = y) {
+    console.log("x is equal to y")
+}
+ else {
     console.log("y is the biggest number")
 }
 
@@ -48,3 +51,4 @@ else {
     const remainingUsers = users.length - 2
     console.log('${users[0]} and ${users[1]} and ${remainingUsers} are online')
 }
+const people = ["Greg", "Mary", "Devon", "James"];
