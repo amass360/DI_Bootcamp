@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../projectDI"
+		},
+		{
+			"path": "../../../Assignments"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DI_Bootcamp"
+	}
+}

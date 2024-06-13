@@ -53,8 +53,8 @@ h1{
 }
 .maze{
     display: grid;
-    grid-template-columns: repeat(40, 30px);  /*20 columns*/ 
-    grid-template-rows: repeat(16, 30px);   /*15 rows 
+    grid-template-columns: repeat(20, 30px);  /*20 columns*/ 
+    grid-template-rows: repeat(15, 30px);   /*15 rows 
     gap: 2px;  /*Optional: space between cells */
 }
 
