@@ -57,4 +57,5 @@ console.log(res)
 res.forEach((item, i, arr) => {
     arr[i][1]*=2
 });
-let result = Object.
+let result = Object.entries(users).map(([key,value]) => [key,value*2])
+console.log(result)
