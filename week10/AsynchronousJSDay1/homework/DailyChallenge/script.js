@@ -184,3 +184,68 @@ toJs(morse)
 .catch(err => {
     console.log(err);
 })
+
+
+//static promise 
+const promise1 = new Promise((res,rej) => {
+    setTimeout(() => {
+        res("resolve promise1")
+    }, 2*1000)
+})
+
+const promise2 = new Promise((res,rej) => {
+    setTimeout(() => {
+        // res("resolve promise2") 
+        rej("reject promise2")
+    }, 2*3000)
+})
+
+const promise3 = new Promise((res,rej) => {
+    setTimeout(() => {
+        res("resolve promise3")
+    }, 2*5000)
+})
+
+Promise.all(promise1,promise2,promise3)
+.then(result => {
+    console.log(result);
+})
+.catch((err) => {
+    console.log(err);
+})
+
+//if 1 of the promises is rejected then they're all rejected
+//the above comment is the case for Promise All
+
+Promise.allSettled(promise1,promise2,promise3)
+.then(result => {
+    console.log(result);
+})
+.catch((err) => {
+    console.log(err);
+})
+
+//the All Settled will give you the status of each 
+//--of the promises even if 1 or more were rejected
+
+Promise.race(promise1,promise2,promise3)
+.then(result => {
+    console.log(result);
+})
+.catch((err) => {
+    console.log(err);
+})
+
+//race will give you the first promise that is resolved
+//--you know which promise is resolved first based on the timeout value
+
+console.log("3");
+
+setTimeout(() => {
+    console.log("1");
+},0)
+
+let p = Promise.resolve()
+p.then(ret => console.log("2"))
+//the promise statement of printing the number "2"
+//--is a micro task so it will print in the console BEFORE the number 1 even though it is within the timeout statement
