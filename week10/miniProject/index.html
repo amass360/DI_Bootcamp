@@ -7,10 +7,13 @@
 </head>
 <body>
     <h1>Star Wars</h1>
-    <form method="GET" action="https://www.swapi.tech/">
+    <form method="GET">
+    <!-- don't need to specify method since we are doing the fetch so action is not needed -->
         <input name="id" placeholder="id"/>
         <input name="email" placeholder="email"/>
         <button id="button">Find Someone</button>
+    </form>
+    <div id="root"></div>
     <script src="script.js"></script>
 </body>
 </html>
